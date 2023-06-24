@@ -32,5 +32,7 @@ int main()
     v2.push_back(10);
     printVec(v);
     printVec(v2);
+
+    return 0;
      
 }
