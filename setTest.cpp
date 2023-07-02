@@ -4,14 +4,14 @@
 #include<iterator>
 using namespace std;
 
-void printSet(set<string> &s)
+/*void printSet(set<string> &s)
 {
     for(string value : s)
     {
         cout << value << " ";
     }
     cout << endl;
-}
+}*/
 int main()
 {
     int n;
@@ -33,7 +33,7 @@ int main()
     }
     cout << endl;
 
-    printSet(s);
+   // printSet(s);
 
     return 0;
 }
